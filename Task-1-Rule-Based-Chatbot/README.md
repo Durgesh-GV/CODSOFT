@@ -1,4 +1,4 @@
-# Task 1 – Rule-Based Chatbot
+# Task 1 – Rule-Based-Chatbot
 
 ## Description
 This project implements a simple rule-based chatbot using Python.
