@@ -6,9 +6,9 @@ CodSoft Internship. Each task is organized into a separate
 folder with source code and documentation.
 
 ## Tasks Included
-- Task 1: Rule-Based Chatbot (Python)
-- Task 2: Tic Tac Toe AI (Minimax Algorithm)
-- Task 3: Movie Recommendation System
+- Task 1: Rule Based Chatbot 
+- Task 2: Tic-Tac-Toe AI 
+- Task 4: Recommendation System
 
 ## Technologies Used
 - Python
