@@ -20,7 +20,7 @@ folder with source code and documentation.
 CODSOFT/
 ├── Task-1-Chatbot/
 ├── Task-2-TicTacToe-AI/
-├── Task-3-Movie-Recommendation/
+├── Task-4-Movie-Recommendation/
 └── README.md
 ```
 
