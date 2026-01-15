@@ -33,20 +33,6 @@ Please download the dataset from Kaggle and place
 `movies.csv` in the **same folder** as `recommentation system.py`
 before running the program.
 
-## How to Run
-
-1. Install required libraries:
-
-   ```
-   pip install pandas scikit-learn
-   ```
-2. Place `movies.csv` in this folder
-3. Run the program:
-
-   ```
-   python recommentation system.py
-   ```
-
 ## Author
 
 Durgesh
