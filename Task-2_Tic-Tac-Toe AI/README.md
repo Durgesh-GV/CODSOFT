@@ -14,11 +14,5 @@ player competes against an AI using the Minimax algorithm.
 ## Technologies Used
 - Python
 
-## How to Run
-1. Open terminal or command prompt
-2. Navigate to this folder
-3. Run:
-   python main.py
-
 ## Author
 Durgesh
