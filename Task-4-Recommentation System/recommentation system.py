@@ -25,12 +25,12 @@ df = df[['movieId', 'title', 'genres']]
 df.dropna(inplace=True)
 
 
-# LIMIT DATASET SIZE (IMPORTANT FIX)
+# LIMIT DATASET SIZE 
 
 df = df.head(3000)
 
 
-# SHOW SAMPLE (NOW SAFE)
+# SHOW SAMPLE 
 
 print("\nSample movies you can search:\n")
 print(df[['movieId', 'title', 'genres']].sample(5).to_string(index=False))
