@@ -9,7 +9,6 @@ print("Starting program...")
 df = pd.read_csv(r"movies.csv")
 print("Dataset loaded successfully!")
 
-
 # CHECK REQUIRED COLUMNS
 
 required_cols = {'movieId', 'title', 'genres'}
@@ -18,28 +17,23 @@ if not required_cols.issubset(df.columns):
     print("Available columns:", df.columns.tolist())
     exit()
 
-
 # KEEP REQUIRED COLUMNS
 
 df = df[['movieId', 'title', 'genres']]
 df.dropna(inplace=True)
 
-
 # LIMIT DATASET SIZE 
 
 df = df.head(3000)
-
 
 # SHOW SAMPLE 
 
 print("\nSample movies you can search:\n")
 print(df[['movieId', 'title', 'genres']].sample(5).to_string(index=False))
 
-
 # CLEAN GENRES
 
 df['genres'] = df['genres'].str.replace('|', ' ', regex=False)
-
 
 # VECTORIZE GENRES
 
@@ -50,7 +44,6 @@ matrix = cv.fit_transform(df['genres'])
 # COSINE SIMILARITY
 
 similarity = cosine_similarity(matrix)
-
 
 # RECOMMENDATION FUNCTION
 
