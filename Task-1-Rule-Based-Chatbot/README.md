@@ -16,11 +16,5 @@ commands using predefined rules and if-else statements.
 - Python
 - datetime module
 
-## How to Run
-1. Open Command Prompt or Terminal
-2. Navigate to this folder
-3. Run the command:
-   python chatbot.py
-
 ## Author
 Durgesh
